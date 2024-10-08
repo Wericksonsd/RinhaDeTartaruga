@@ -12,6 +12,22 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+
+      backgroundImage: {
+        'contornoClr': "url('/backgroundPapiroClaro.jpg')",
+        'contornoLkd': "url('/img/footer-texture.png')",
+        'pantanalBG' : "url('/pantanalBG.jpg')",
+        'pantanalLK' : "url('/pantanalLKD.jpg')",
+      },
+
+      fontFamily:{
+        'titulo' : 'Lilita One, sans-serif',
+      },
+
+      boxShadow: {
+        'interna': 'inset 0px 0px 28px 1px rgba(0,0,0,0.57)',
+      },
+      
     },
   },
   plugins: [],
